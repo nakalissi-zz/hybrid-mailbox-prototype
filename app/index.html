@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redesign IOS Mail App</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- inject:vendor:css --><!-- endinject -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- endinject -->
+  </head>
+  <body>
+    <div class="app-view">
+      <header>
+        <h1>Mailboxes</h1>
+        <button id="remove">Del</button>
+      </header>
+      <main>
+        <ul id="mailboxes-list"></ul>
+        <div id="message" class="message">
+          <img src="images/message.svg" alt="">
+          Add your account
+        </div>
+      </main>
+      <footer>
+        <button id="add-account" class="add-account"></button>
+      </footer>
+
+    </div>
+
+    <div id="modal" class="modal">
+      <form id="input-form">
+        <input type="text" name="name" placeholder="Name" id="mailbox-name" >
+        <input type="text" name="email" placeholder="Email" id="mailbox-email">
+        <input type="text" name="account" placeholder="Account" id="mailbox-account">
+        <button class="add">Create Mailbox</button>
+      </form>
+    </div>
+
+    <!-- inject:vendor:js -->
+    <script src="/jquery/dist/jquery.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <script src="/main.js"></script>
+    <!-- endinject -->
+  </body>
+</html>

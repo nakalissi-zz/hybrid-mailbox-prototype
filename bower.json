@@ -1,0 +1,25 @@
+{
+  "name": "nakalissi",
+  "description": "IOS Hybrid Mailbox",
+  "main": [
+    "js/main.js",
+    "css/style.css"
+  ],
+  "authors": [
+    "Daniel Calissi Nakatate"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "www.nakalissi.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  }
+}
